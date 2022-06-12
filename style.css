@@ -1,0 +1,122 @@
+:root {
+
+    --color-primary: #cd0102 black;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+html,
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #6E1513
+}
+
+/* navbar mebu style*/
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: #6E1513
+}
+
+.navbar ul {
+    display: flex;
+    text-align: center;
+
+
+
+}
+
+.navbar li {
+
+    margin: 16px;
+}
+
+.navbar a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.menu_left {
+    flex: 1;
+    font-size: 16px;
+
+}
+
+.navbar-brand {
+    color: #6E1513;
+
+}
+
+.list {
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    
+}
+
+.heading p,
+h1 {
+
+    color: black;
+
+
+}
+
+.newslist {display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+
+    margin: 10px;
+
+
+
+}
+.newslist{
+
+    color: black;
+
+}
+.newslist img {
+
+    width: 300px;
+    height: 290px;
+    grid-template-columns: repeat(0, 1fr);
+    opacity: var(--color-primary);
+    
+}
+.container{
+    
+    max-width: 100%;
+    width: 1600px;
+    margin: auto;
+}
+
+/* footer */
+
+.logo {
+
+    background-color: #6E1513;
+   
+}
+.sub {
+background-color: #302e27;
+color: #fff;
+
+
+}
+.mini{
+background-color: #302e27;
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+color: #fff;
+}
